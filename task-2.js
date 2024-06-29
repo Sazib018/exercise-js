@@ -1,7 +1,20 @@
-var totalNumber = 75.25+65+80+35.45+99.50;
-var totalSubject=5;
+var mathematic = 75.25;
+var biology = 65;
+var chemistry = 80;
+var physics = 35.45;
+var bangla = 99.50;
 
-var totalAvareg = totalNumber / totalSubject;
-var desimal2 = totalAvareg.toFixed(2)
+var allSubject = mathematic + biology + chemistry + physics + bangla;
+var allReminder = 5;
 
-console.log(desimal2)
+var result = allSubject / allReminder;
+var desimal = result.toFixed(2);
+
+console.log(desimal)
+
+
+
+
+
+
+
